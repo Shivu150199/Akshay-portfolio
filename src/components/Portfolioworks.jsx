@@ -16,13 +16,13 @@ export default function PortfolioWorks() {
         <div className="min-h-screen bg-gray-50" id="works">
             {/* Header */}
             <header className="px-8 md:px-20 lg:px-32 py-12">
-                <h1 className="text-5xl md:text-6xl font-normal">
+                <h1 className="text-3xl md:text-4xl font-normal">
                     Selected Works
                 </h1>
             </header>
 
             {/* Main Content */}
-            <div className="px-8 md:px-20 lg:px-32 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12 ">
+            <div className="px-2 md:px-20 lg:px-32 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12 ">
                 {/* Left Side - Image */}
 
                 <img
@@ -32,8 +32,8 @@ export default function PortfolioWorks() {
                 />
 
                 {/* Right Side - Project Description */}
-                <div className="lg:sticky lg:top-12 space-y-8">
-                    <h2 className="text-4xl md:text-5xl font-normal leading-tight">
+                <div className="lg:sticky lg:top-12 space-y-8 flex  flex-col justify-center">
+                    <h2 className="text-3xl md:text-4xl font-normal leading-tight">
                         Track learning progress of trainee
                     </h2>
 
