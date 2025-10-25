@@ -1,5 +1,5 @@
 import React from "react";
-import { resume } from "react-dom/server";
+import { resume } from "../assets";
 
 const Footer = () => {
     return (
