@@ -1,5 +1,5 @@
-import norton from './Norton.png'
+// import norton from './Norton.png'
 import resume from './resume.pdf'
-import project1 from './project1.jpg'
+import project1 from './project1.png'
 
-export { norton, resume, project1 }
+export { resume, project1 }

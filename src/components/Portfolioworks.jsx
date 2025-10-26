@@ -9,7 +9,7 @@ import {
     Monitor,
     Laptop,
 } from "lucide-react";
-import { norton, project1 } from "../assets";
+import { project1 } from "../assets";
 
 export default function PortfolioWorks() {
     return (
