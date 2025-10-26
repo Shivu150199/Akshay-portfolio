@@ -22,7 +22,7 @@ const Footer = () => {
 
                 <div className="flex items-center gap-6 text-xl">
                     <a
-                        href="mailto: akshay15696@gmail.com"
+                        href="mailto:akshay15696@gmail.com"
                         className="hover:text-purple-600 transition-colors flex items-center gap-2"
                     >
                         Email 💡

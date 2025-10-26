@@ -61,7 +61,7 @@ export default function PortfolioWorks() {
                         target="_blank"
                     >
                         <span className="font-medium">Read More</span>
-                        <span className="text-2xl">🔒</span>
+                        <span className="text-2xl">➡️</span>
                     </a>
                 </div>
             </div>
