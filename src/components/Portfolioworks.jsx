@@ -9,7 +9,7 @@ import {
     Monitor,
     Laptop,
 } from "lucide-react";
-import { project1 } from "../assets";
+import { gym, project1 } from "../assets";
 
 export default function PortfolioWorks() {
     return (
@@ -28,7 +28,7 @@ export default function PortfolioWorks() {
                 <img
                     src={project1}
                     alt="Norton 360 iOS Design System"
-                    className="w-full h-[600px] object-cover  rounded-lg"
+                    className="w-[500px] h-[500px] object-cover  rounded-lg"
                 />
 
                 {/* Right Side - Project Description */}
@@ -57,6 +57,47 @@ export default function PortfolioWorks() {
 
                     <a
                         href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing "
+                        className="flex items-center gap-2 text-xl"
+                        target="_blank"
+                    >
+                        <span className="font-medium">Read More</span>
+                        <span className="text-2xl">➡️</span>
+                    </a>
+                </div>
+            </div>
+
+            <div className="px-2 md:px-20 lg:px-32 py-12 grid grid-cols-1 lg:grid-cols-2 gap-12 ">
+                {/* Left Side - Image */}
+
+                <img
+                    src={gym}
+                    alt="Norton 360 iOS Design System"
+                    className="w-[500px] h-[500px] object-cover  rounded-lg"
+                />
+
+                {/* Right Side - Project Description */}
+                <div className="lg:sticky lg:top-12 space-y-8 flex  flex-col justify-center">
+                    <h2 className="text-3xl md:text-4xl font-normal leading-tight">
+                        Mobile Application for Gym management
+                    </h2>
+
+                    <div className="space-y-6 text-lg text-gray-700">
+                        <div className="flex gap-3">
+                            <Check className="w-6 h-6 text-gray-400 flex-shrink-0 mt-1" />
+                            <p>Automate attendance tracking and fee reminder</p>
+                        </div>
+
+                        <div className="flex gap-3">
+                            <Check className="w-6 h-6 text-gray-400 flex-shrink-0 mt-1" />
+                            <p>
+                                Track your Gym income & compare from last month,
+                                quarter, half yearly
+                            </p>
+                        </div>
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/file/d/1fyrqTMlrlmlEsfdHHIaEqriBHPyztJqq/view?usp=sharing"
                         className="flex items-center gap-2 text-xl"
                         target="_blank"
                     >
