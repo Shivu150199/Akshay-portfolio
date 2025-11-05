@@ -55,14 +55,32 @@ export default function PortfolioWorks() {
                         </div>
                     </div>
 
-                    <a
+                    {/* <a
                         href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing "
                         className="flex items-center gap-2 text-xl"
                         target="_blank"
                     >
                         <span className="font-medium">Read More</span>
                         <span className="text-2xl">➡️</span>
-                    </a>
+                    </a> */}
+                    <div className="flex items-center justify-start">
+                        <a
+                            href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing "
+                            className="group relative inline-flex items-center gap-3 px-4 py-2 text-xl font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105"
+                            target="_blank"
+                        >
+                            {/* Animated background shine effect */}
+                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
+
+                            {/* Button text */}
+                            <span className="relative z-10">Read More</span>
+
+                            {/* Arrow with slide animation */}
+                            <span className="relative z-10 text-2xl transform transition-transform duration-300 group-hover:translate-x-2">
+                                ➡️
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -95,15 +113,24 @@ export default function PortfolioWorks() {
                             </p>
                         </div>
                     </div>
+                    <div className="flex items-center justify-start">
+                        <a
+                            href="https://drive.google.com/file/d/1fyrqTMlrlmlEsfdHHIaEqriBHPyztJqq/view?usp=sharing"
+                            className="group relative inline-flex items-center gap-3 px-4 py-2 text-xl font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 "
+                            target="_blank"
+                        >
+                            {/* Animated background shine effect */}
+                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
 
-                    <a
-                        href="https://drive.google.com/file/d/1fyrqTMlrlmlEsfdHHIaEqriBHPyztJqq/view?usp=sharing"
-                        className="flex items-center gap-2 text-xl"
-                        target="_blank"
-                    >
-                        <span className="font-medium">Read More</span>
-                        <span className="text-2xl">➡️</span>
-                    </a>
+                            {/* Button text */}
+                            <span className="relative z-10">Read More</span>
+
+                            {/* Arrow with slide animation */}
+                            <span className="relative z-10 text-2xl transform transition-transform duration-300 group-hover:translate-x-2">
+                                ➡️
+                            </span>
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
