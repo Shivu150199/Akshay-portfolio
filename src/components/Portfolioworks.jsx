@@ -8,6 +8,7 @@ import {
     Smartphone,
     Monitor,
     Laptop,
+    ArrowRight,
 } from "lucide-react";
 import { gym, project1 } from "../assets";
 
@@ -55,30 +56,31 @@ export default function PortfolioWorks() {
                         </div>
                     </div>
 
-                    {/* <a
-                        href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing "
-                        className="flex items-center gap-2 text-xl"
-                        target="_blank"
-                    >
-                        <span className="font-medium">Read More</span>
-                        <span className="text-2xl">➡️</span>
-                    </a> */}
-                    <div className="flex items-center justify-start">
+                    <div className="flex items-center justify-start p-8">
                         <a
-                            href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing "
-                            className="group relative inline-flex items-center gap-3 px-4 py-2 text-xl font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105"
+                            href="https://drive.google.com/file/d/1yKVX9lwbpT57VeOCHc5r6cxP9J9744Gk/view?usp=sharing"
+                            className="group relative inline-flex items-center gap-3 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 active:scale-95"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             {/* Animated background shine effect */}
-                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
+                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
+
+                            {/* Pulsing glow effect */}
+                            <span className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-10 blur-xl transition-opacity duration-300"></span>
 
                             {/* Button text */}
-                            <span className="relative z-10">Read More</span>
-
-                            {/* Arrow with slide animation */}
-                            <span className="relative z-10 text-2xl transform transition-transform duration-300 group-hover:translate-x-2">
-                                ➡️
+                            <span className="relative z-10 tracking-wide">
+                                Read More
                             </span>
+
+                            {/* Arrow icon with slide animation */}
+                            <span className="relative z-10 transform transition-transform duration-300 group-hover:translate-x-2">
+                                <ArrowRight className="w-5 h-5" />
+                            </span>
+
+                            {/* Particle effect on edges */}
+                            <span className="absolute inset-0 rounded-full border-2 border-white opacity-0 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500"></span>
                         </a>
                     </div>
                 </div>
@@ -113,22 +115,31 @@ export default function PortfolioWorks() {
                             </p>
                         </div>
                     </div>
-                    <div className="flex items-center justify-start">
+                    <div className="flex items-center justify-start p-8">
                         <a
                             href="https://drive.google.com/file/d/1fyrqTMlrlmlEsfdHHIaEqriBHPyztJqq/view?usp=sharing"
-                            className="group relative inline-flex items-center gap-3 px-4 py-2 text-xl font-medium text-white bg-gradient-to-r from-blue-600 to-purple-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 "
+                            className="group relative inline-flex items-center gap-3 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 active:scale-95"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             {/* Animated background shine effect */}
-                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
+                            <span className="absolute inset-0 w-full h-full bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-30 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-all duration-700"></span>
+
+                            {/* Pulsing glow effect */}
+                            <span className="absolute inset-0 rounded-full bg-white opacity-0 group-hover:opacity-10 blur-xl transition-opacity duration-300"></span>
 
                             {/* Button text */}
-                            <span className="relative z-10">Read More</span>
-
-                            {/* Arrow with slide animation */}
-                            <span className="relative z-10 text-2xl transform transition-transform duration-300 group-hover:translate-x-2">
-                                ➡️
+                            <span className="relative z-10 tracking-wide">
+                                Read More
                             </span>
+
+                            {/* Arrow icon with slide animation */}
+                            <span className="relative z-10 transform transition-transform duration-300 group-hover:translate-x-2">
+                                <ArrowRight className="w-5 h-5" />
+                            </span>
+
+                            {/* Particle effect on edges */}
+                            <span className="absolute inset-0 rounded-full border-2 border-white opacity-0 group-hover:opacity-20 group-hover:scale-110 transition-all duration-500"></span>
                         </a>
                     </div>
                 </div>
