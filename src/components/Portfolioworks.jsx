@@ -58,7 +58,7 @@ export default function PortfolioWorks() {
 
                     <div className="flex items-center justify-start p-8">
                         <a
-                            href="https://drive.google.com/file/d/1QAOzAWf2OJCEWx6uB2ANwkvaiOz8tWl_/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1z-kNbarCSz44uFJGGTo-4pa6GhqIkcEM/view"
                             className="group relative inline-flex items-center gap-3 px-6 py-3 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-full overflow-hidden transition-all duration-300 hover:shadow-2xl hover:shadow-purple-500/50 hover:scale-105 active:scale-95"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -98,7 +98,7 @@ export default function PortfolioWorks() {
                 {/* Right Side - Project Description */}
                 <div className="lg:sticky lg:top-12 space-y-8 flex  flex-col justify-center">
                     <h2 className="text-3xl md:text-4xl font-normal leading-tight">
-                        Mobile Application for Gym management
+                        Mobile application for Gym management
                     </h2>
 
                     <div className="space-y-6 text-lg text-gray-700">

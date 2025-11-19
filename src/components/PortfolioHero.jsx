@@ -115,7 +115,7 @@ export default function PortfolioHero() {
                     }`}
                     style={{ transitionDelay: "600ms" }}
                 >
-                    Senior UX Designer @ Globallogic | Previously @ Ofbusiness,
+                    Senior UX Designer @ Globallogic | Formerly @ Ofbusiness,
                     clik.ai & iimjobs.com
                 </p>
             </main>
